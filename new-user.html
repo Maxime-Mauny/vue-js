@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        
+        
+    </style>
+
+</head>
+<body>
+    <div class="header">
+        <div class="header item">Je suis sur la page NOUVEL UTILISATEUR</div>
+    </div>
+
+    <div class="new-user-container" id="app">
+        <input v-model="firstname" placeholder="Prénom"><br><br>
+        <input v-model="lastname" placeholder="Nom"><br><br>
+        <input v-model="phoneNumber" placeholder="Numéro de téléphone"><br><br>
+        <button><a v-bind:href="link2">Valider</a></button><br><br>
+        <p>
+            Mail : {{ mail }}
+        </p>
+    </div>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.0-rc.5/vue.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
