@@ -1,5 +1,6 @@
 body {
     background-color: rgb(228, 228, 228);
+    font-size: 1.2em;
 }
 
 /* Commun aux deux pages */
@@ -19,6 +20,7 @@ button {
     background-color: rgb(170, 223, 117);
     padding: 5px;
     border-radius: 10px;
+    margin: 3% 45% 0 45%;
 }
 button:hover {
     background-color: rgb(149, 202, 96);
@@ -29,21 +31,32 @@ a {
     color: black;
     font-weight: bolder;
 }
-
-
-
+/* Tableau annuaire */
+table{
+    border-collapse: collapse;
+    margin: auto;
+    background-color: rgb(241, 237, 237); 
+  }
+  
+  td{
+    border: 2px solid black;
+    padding: 15px;
+  }
 /* New User */
-
+/* Propriétés du container */
 .new-user-container {
     background-color: rgb(133, 118, 118);
     padding: 35px;
-    width: 400px;
+    width: 500px;
     margin: auto;
 }
+/* Formulaire à remplir par l'utilisateur */
 input {
      padding: 3px;
      border: 1.5px solid rgb(66, 61, 61);
+     font-size: 0.9em;
 }
+/* adresse mail */
 p {
-    font-size: 1.1em;
+    font-weight: 600;
 }

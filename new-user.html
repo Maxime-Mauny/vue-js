@@ -10,17 +10,18 @@
 
 </head>
 <body>
+            <!-- Information de la page actuelle (statique pour le moment)-->
     <div class="header">
         <div class="header item">Je suis sur la page NOUVEL UTILISATEUR</div>
     </div>
-
+            <!-- Container permettant d'ajouter un utilisateur-->
     <div class="new-user-container" id="app">
         <input v-model="firstname" placeholder="Prénom"><br><br>
         <input v-model="lastname" placeholder="Nom"><br><br>
         <input v-model="phoneNumber" placeholder="Numéro de téléphone"><br><br>
         <button><a v-bind:href="link2">Valider</a></button><br><br>
         <p>
-            Mail : {{ mail }}
+            Mail : {{ mail }}  <!-- adresse mail automatiquement créée-->
         </p>
     </div>
 
