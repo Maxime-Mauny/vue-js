@@ -1,5 +1,15 @@
 new Vue({
 
+    el: '#header',
+
+    data: {
+        index: 'ANNUAIRE COOPERL',
+        newUser: 'NOUVEL UTILISATEUR'
+    }
+})
+
+new Vue({
+
     el: '#app',
 
     data: {
@@ -15,3 +25,4 @@ new Vue({
         }
     }
 })
+
