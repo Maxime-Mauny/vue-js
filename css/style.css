@@ -16,13 +16,13 @@ body {
 
 /* Index */
 /* Bouton Ajouter */
-button {
+.add {
     background-color: rgb(170, 223, 117);
     padding: 5px;
     border-radius: 10px;
-    margin: 3% 45% 0 45%;
+    margin: 0 0 0 30px;
 }
-button:hover {
+.add:hover {
     background-color: rgb(149, 202, 96);
 }
 a {
@@ -31,16 +31,29 @@ a {
     color: black;
     font-weight: bolder;
 }
+/* Bouton Extraire */
+.extract {
+    background-color: rgb(245, 169, 125);
+    padding: 5px;
+    border-radius: 10px;
+    margin: 30px 0 0 30px;
+}
+.extract:hover {
+    background-color: rgb(231, 87, 61);
+}
+
 /* Tableau annuaire */
 table{
     border-collapse: collapse;
-    margin: auto;
+    margin: 30px 0 30px 30px;
     background-color: rgb(241, 237, 237); 
   }
   
   td{
     border: 2px solid black;
     padding: 15px;
+    font-size: 0.9em;
+    font-weight: bold;
   }
 /* New User */
 /* Propriétés du container */
@@ -59,4 +72,19 @@ input {
 /* adresse mail */
 p {
     font-weight: 600;
+}
+.validate {
+    background-color: rgb(170, 223, 117);
+    padding: 5px;
+    border-radius: 10px;
+    margin: 3% 45% 0 45%;
+}
+.validate:hover {
+    background-color: rgb(149, 202, 96);
+}
+a {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black;
+    font-weight: bolder;
 }
