@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.css">
     <link rel="stylesheet" href="css/style.css">
     <style>
         .main.container {
@@ -26,9 +27,22 @@
               <td>ANNUAIRE</td>             
             </tr>
             <tr>
-              <td>Maxime Mauny</td>
+                <td><button class="annuaire" @click="open"> Maxime Mauny</button></td>           
             </tr>
-          </table>
+            <tr>
+                <td><button class="annuaire" @click="open"> Maxime Mauny</button></td>           
+            </tr>
+            <tr>
+                <td><button class="annuaire" @click="open"> Maxime Mauny</button></td>           
+            </tr>
+            <tr>
+                <td><button class="annuaire" @click="open"> Maxime Mauny</button></td>           
+            </tr>
+            </table>
+            <div class="ui success message" v-show="demandInfos" onClick="window.location.reload();"><i class="close icon" @click="close"></i>
+                <img src="https://source.unsplash.com/120x100/?portrait" alt="" class="article__img">
+                <p>{{ infos }}</p>
+            </div>
             <!-- Lien vers la page "Nouvel Utlisateur"-->
         <button class="add"><a v-bind:href="link1">Ajouter</a></button><br>
         <button class="extract"><a v-bind:href="link3">Extraire</a></button>
@@ -44,6 +58,8 @@
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.0-rc.5/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.auto.js"></script>
     <script src="js/app.js"></script>
+    <script src="js/vuex.js"></script>
 </body>
 </html>

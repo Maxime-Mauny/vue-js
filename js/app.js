@@ -18,15 +18,29 @@ new Vue({
         link2: 'http://localhost/vue-js/index.html',
         link3: 'https://www.google.com/',
         firstname: '',
-        lastname: ''
+        lastname: '',
+        infos: 'Maxime Mauny, maxime.mauny@cooperl.fr, 0672310070',
+        demandInfos: '',
     },
 /* Fonction qui permet de récupérer le Prénom et le Nom des input, pour créer l'adresse mail */
     computed: {
         mail: function () {
             return this.firstname + '.' + this.lastname + '@cooperl.fr'
-        }
+        },
+    },
+    
+    methods: {  
+        close: function () {
+            this.demandInfos = false
+        },  
+        open: function () {
+            this.demandInfos = true
+        },   
+          
     }
+    
 })
+
 
 /* Ce qu'il me reste à faire !!! */
 

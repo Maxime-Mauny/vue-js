@@ -1,6 +1,15 @@
+html {
+    height:100%;
+    background-color: white;
+}
+
 body {
+    min-height:100%;
+    position:relative;
     background-color: rgb(228, 228, 228);
     font-size: 1.2em;
+    width: 700px;
+    margin: auto;
 }
 
 /* Commun aux deux pages */
@@ -51,15 +60,35 @@ table{
   td{
     border: 2px solid black;
     padding: 15px;
-    font-size: 0.9em;
-    font-weight: bold;
   }
+/* Liste des Utilisateurs de l'annuaires */
+.annuaire {
+    border: none;
+    background-color: rgb(241, 237, 237);
+    font-size: 1.1em;
+    font-weight: bold;
+}
 /* Count du footer */
 .count {
+    position:absolute;
+    width:100%;
+    bottom: 20px;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
+}
+.users {
     text-align: center;
     padding: 2px;
+}
+.ui.success.message {
+    background-color: rgb(241, 237, 237);
+    border: 1px solid black;
+    width: 300px;
+    height: 270px;
+    padding-top: 30px;
+    position: absolute;
+    top: 190px;
+    right: 100px;
 }
 
 /* New User */
