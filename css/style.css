@@ -21,6 +21,7 @@ body {
     color: rgb(241, 237, 237);
     text-align: center;
     font-weight: bold;
+    font-size: 1.2em;
 } 
 
 /* Index */
@@ -29,7 +30,7 @@ body {
     background-color: rgb(170, 223, 117);
     padding: 5px;
     border-radius: 10px;
-    margin: 0 0 0 30px;
+    margin: 0 0 0 60px;
 }
 .add:hover {
     background-color: rgb(149, 202, 96);
@@ -45,7 +46,7 @@ a {
     background-color: rgb(245, 169, 125);
     padding: 5px;
     border-radius: 10px;
-    margin: 30px 0 30px 30px;
+    margin: 30px 0 30px 60px;
 }
 .extract:hover {
     background-color: rgb(231, 87, 61);
@@ -53,13 +54,16 @@ a {
 /* Tableau annuaire */
 table{
     border-collapse: collapse;
-    margin: 30px 0 30px 30px;
+    margin: 30px 0 30px 60px;
     background-color: rgb(241, 237, 237); 
   }
-  
+  .title {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
   td{
     border: 2px solid black;
-    padding: 15px;
+    padding: 15px 20px 15px 20px;
   }
 /* Liste des Utilisateurs de l'annuaires */
 .annuaire {
@@ -87,8 +91,8 @@ table{
     height: 270px;
     padding-top: 30px;
     position: absolute;
-    top: 190px;
-    right: 100px;
+    top: 197px;
+    right: 60px;
 }
 
 /* New User */
@@ -98,16 +102,17 @@ table{
     padding: 35px;
     width: 500px;
     margin: auto;
+    margin-top: 100px;
 }
 /* Formulaire à remplir par l'utilisateur */
 input {
      padding: 3px;
-     border: 1.5px solid rgb(66, 61, 61);
-     font-size: 0.9em;
+     border: 1.5px solid rgb(66, 61, 61);    
 }
 /* adresse mail */
 .mail {
     font-weight: 600;
+    text-transform: lowercase;
 }
 .validate {
     background-color: rgb(170, 223, 117);
