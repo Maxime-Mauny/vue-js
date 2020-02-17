@@ -44,12 +44,10 @@ new Vue({
 
 /* Ce qu'il me reste à faire !!! */
 
-/* Bulle d'infos en cliquant sur un utilisateur, s'ouvrant sur la droite de la page */
-
 /* A la validation du formulaire, le nouvel utilisateur doit arriver dans l'annuaire */
 
 /* dans la div footer, ajouter un "count" du nombre d'utilisateurs se trouvant dans l'annuaire "VUEX ?" */
 
 /* lien dynamique vers les autres pages avec "vue Router" */
 
-/* Simuler un appel ajax avec le buutton "extract" (UTILISER AXIOS) */
+/* Simuler un appel ajax avec le button "extract" (UTILISER AXIOS) */
