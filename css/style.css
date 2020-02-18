@@ -32,7 +32,7 @@ body {
     background-color: rgb(170, 223, 117);
     padding: 5px;
     border-radius: 10px;
-    margin: 0 0 0 60px;
+    margin: 0 0 0 50px;
     -webkit-box-shadow: 7px 7px 11px 0px rgb(73, 73, 73);
     -moz-box-shadow: 7px 7px 11px 0px rgb(66, 63, 66);
     box-shadow: 7px 7px 11px 0px rgb(68, 65, 68);
@@ -51,7 +51,7 @@ a {
     background-color: rgb(245, 169, 125);
     padding: 5px;
     border-radius: 10px;
-    margin: 30px 0 30px 60px;
+    margin: 30px 0 30px 50px;
     -webkit-box-shadow: 7px 7px 11px 0px rgb(73, 73, 73);
     -moz-box-shadow: 7px 7px 11px 0px rgb(66, 63, 66);
     box-shadow: 7px 7px 11px 0px rgb(68, 65, 68);
@@ -62,7 +62,7 @@ a {
 /* Tableau annuaire */
 table{
     border-collapse: collapse;
-    margin: 10px 0 30px 60px;
+    margin: 10px 0 30px 50px;
     background-color: rgb(255, 255, 255); 
     -webkit-box-shadow: 7px 7px 11px 0px rgb(73, 73, 73);
     -moz-box-shadow: 7px 7px 11px 0px rgb(66, 63, 66);
@@ -75,7 +75,10 @@ table{
   }
   td{
     border: 2px solid black;
-    padding: 15px 20px 15px 20px;
+    padding: 15px 15px 15px 15px;
+  }
+  i {
+      margin-right: 10px;
   }
 /* Liste des Utilisateurs de l'annuaires */
 .annuaire {
@@ -108,7 +111,7 @@ table{
     padding-top: 30px;
     position: absolute;
     top: 250px;
-    right: 60px;
+    right: 50px;
     -webkit-box-shadow: 7px 7px 11px 0px rgb(73, 73, 73);
     -moz-box-shadow: 7px 7px 11px 0px rgb(66, 63, 66);
     box-shadow: 7px 7px 11px 0px rgb(68, 65, 68);

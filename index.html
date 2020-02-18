@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <style>
         .main.container {
@@ -24,41 +25,42 @@
             <!-- Tableau annuaire-->
         <table>
             <tr>
-              <td class="title">contacts</td>             
+                <td class="title"><p><i class="fas fa-address-book"></i>contacts </p>
+                </td>             
             </tr>
             <tr>
                 <td>
-                    <button class="annuaire" @click="open"> Maxime Mauny</button>
+                    <button class="annuaire" @click="open"> <p><i class="fas fa-address-card"></i>Maxime Mauny</p></button>
                 </td>           
             </tr>
             <tr>
                 <td>
-                    <button class="annuaire" @click="open"> Arthur Martin</button>
+                    <button class="annuaire" @click="open"><i class="fas fa-address-card"></i>Arthur Martin</button>
                 </td>           
             </tr>
             <tr>
                 <td>
-                    <button class="annuaire" @click="open"> Mélanie Dupuis</button>
+                    <button class="annuaire" @click="open"><i class="fas fa-address-card"></i>Mélanie Dupuis</button>
                 </td>           
             </tr>
             <tr>
                 <td>
-                    <button class="annuaire" @click="open"> Jean-Baptiste Chistian</button>
+                    <button class="annuaire" @click="open"><i class="fas fa-address-card"></i>Jean-Baptiste Chistian</button>
                 </td>           
             </tr>
             <tr>
                 <td>
-                    <button class="annuaire" @click="open"> Arthur Martin</button>
+                    <button class="annuaire" @click="open"><i class="fas fa-address-card"></i>Arthur Martin</button>
                 </td>           
             </tr>
             <tr>
                 <td>
-                    <button class="annuaire" @click="open"> Mélanie Dupuis</button>
+                    <button class="annuaire" @click="open"><i class="fas fa-address-card"></i>Mélanie Dupuis</button>
                 </td>           
             </tr>
             <tr>
                 <td>
-                    <button class="annuaire" @click="open"> Jean-Baptiste Chistian</button>
+                    <button class="annuaire" @click="open"><i class="fas fa-address-card"></i>Jean-Baptiste Chistian</button>
                 </td>           
             </tr>
             </table>
@@ -70,6 +72,7 @@
             </div>
             
             <!-- Lien vers la page "Nouvel Utlisateur"-->
+            
             <button class="add"><a v-bind:href="link1">Ajouter</a></button><br>
             <button class="extract"><a v-bind:href="link3">Extraire</a></button>
     </div>
@@ -87,5 +90,6 @@
     <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.auto.js"></script>
     <script src="js/app.js"></script>
     <script src="js/vuex.js"></script>
+    
 </body>
 </html>

@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <style>
         
@@ -22,7 +23,7 @@
         <input v-model="phoneNumber" placeholder="Numéro de téléphone"><br><br>
         <button class="validate"><a v-bind:href="link2">Valider</a></button><br><br>
         <div class="mail">
-            <p>Mail : {{ mail }}</p> <!-- adresse mail automatiquement créée-->
+            <p><i class="fas fa-envelope-open-text"></i>Mail : {{ mail }}</p> <!-- adresse mail automatiquement créée-->
         </div>
     </div>
 

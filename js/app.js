@@ -1,9 +1,22 @@
+/*
+import VueRouter from 'vue-router'
+Vue.use(VueRouter)
+
+const router = new VueRouter({
+    mode: 'history',
+    routes: [{
+        path: '/',
+        component: require('index.html'),
+    }]
+})
+*/
 
 new Vue({
 /* Effectif sur l'ID "header" */
     el: '#header',
 
     data: {
+
         index: 'ANNUAIRE COOPERL',
         newUser: 'NOUVEL UTILISATEUR'
     }
@@ -12,6 +25,8 @@ new Vue({
 new Vue({
 /* Effectif sur l'ID "app" */
     el: '#app',
+
+    /*router,*/
 
     data: {
         link1: 'http://localhost/vue-js/new-user.html',
@@ -40,6 +55,8 @@ new Vue({
     }
     
 })
+
+
 
 
 /* Ce qu'il me reste à faire !!! */
