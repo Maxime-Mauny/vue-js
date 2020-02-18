@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="css/style.css">
     <style>
         .main.container {
-            padding-top: 50px;
+            padding-top: 30px;
         } 
         
     </style>
@@ -27,32 +27,58 @@
               <td class="title">contacts</td>             
             </tr>
             <tr>
-                <td><button class="annuaire" @click="open"> Maxime Mauny</button></td>           
+                <td>
+                    <button class="annuaire" @click="open"> Maxime Mauny</button>
+                </td>           
             </tr>
             <tr>
-                <td><button class="annuaire" @click="open"> Arthur Martin</button></td>           
+                <td>
+                    <button class="annuaire" @click="open"> Arthur Martin</button>
+                </td>           
             </tr>
             <tr>
-                <td><button class="annuaire" @click="open"> Mélanie Dupuis</button></td>           
+                <td>
+                    <button class="annuaire" @click="open"> Mélanie Dupuis</button>
+                </td>           
             </tr>
             <tr>
-                <td><button class="annuaire" @click="open"> Jean-Baptiste Chistian</button></td>           
+                <td>
+                    <button class="annuaire" @click="open"> Jean-Baptiste Chistian</button>
+                </td>           
+            </tr>
+            <tr>
+                <td>
+                    <button class="annuaire" @click="open"> Arthur Martin</button>
+                </td>           
+            </tr>
+            <tr>
+                <td>
+                    <button class="annuaire" @click="open"> Mélanie Dupuis</button>
+                </td>           
+            </tr>
+            <tr>
+                <td>
+                    <button class="annuaire" @click="open"> Jean-Baptiste Chistian</button>
+                </td>           
             </tr>
             </table>
-            <div class="ui success message" v-show="demandInfos" onClick="window.location.reload();"><i class="close icon" @click="close"></i>
+            
+            <div class="ui success message" v-show="demandInfos" onClick="window.location.reload();">
+                <i class="close icon" @click="close"></i>
                 <img src="https://source.unsplash.com/120x100/?portrait" alt="" class="article__img">
                 <p>{{ infos }}</p>
             </div>
+            
             <!-- Lien vers la page "Nouvel Utlisateur"-->
             <button class="add"><a v-bind:href="link1">Ajouter</a></button><br>
             <button class="extract"><a v-bind:href="link3">Extraire</a></button>
     </div>
 
-    <footer class="count">
-        <div class="users">
-            4 entrée(s)
-        </div>
-    </footer>
+<footer class="count">
+    <div class="users">
+        <p>4 entrée(s)</p>
+    </div>
+</footer>
 
 
 
